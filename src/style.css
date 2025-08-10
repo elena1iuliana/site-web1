@@ -1,0 +1,137 @@
+/* Font elegant */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding-bottom: 80px; /* Evită suprapunerea cu footerul */
+}
+
+/* Container general */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Stilizare meniul de navigare */
+.navbar {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Carduri moderne */
+.produs {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 250px;
+    display: inline-block;
+    margin: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.produs:hover {
+    transform: scale(1.05);
+}
+
+/* Imagini stilizate */
+.produs img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Butoane rafinate */
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer elegant */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Iconițe sociale */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.map-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#map {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.social-buttons img {
+    width: 32px;
+    height: 32px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-buttons img:hover {
+    transform: scale(1.1);
+}
